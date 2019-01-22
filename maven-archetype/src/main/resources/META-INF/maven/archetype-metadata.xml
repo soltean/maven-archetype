@@ -5,13 +5,6 @@
   xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-  <requiredProperties>
-    <requiredProperty key="rootArtifactId">
-      <defaultValue>com.winnowsolutions.hub</defaultValue>
-    </requiredProperty>
-    <requiredProperty key="docker-image-name"/>
-  </requiredProperties>
-
   <modules>
     <module id="${rootArtifactId}-domain" dir="__rootArtifactId__-domain"
       name="${rootArtifactId}-domain">
@@ -36,7 +29,6 @@
           <directory>src/main/resources</directory>
           <includes>
             <include>**/*.yml</include>
-            <include>**/*.sql</include>
           </includes>
         </fileSet>
       </fileSets>
