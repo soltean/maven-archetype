@@ -1,6 +1,6 @@
 ## Contents
 
-#####This is a maven archetype that allows you to spawn services with the same agreed structure
+This is a maven archetype that allows you to spawn services with the same agreed structure
  - service-app
  - service-data
  - service-domain
@@ -10,17 +10,17 @@ It will contain also commons stuff like packages, common classes, configs, yml f
 
 ## How to use it
 
-#####1. Make sure you are in the right directory(hub-archetype)
+1. Make sure you are in the right directory(where the archetype parent pom is)
 ```
  mvn clean install
 ```
  This will install the archetype in the local catalog
  
-#####2. Navigate to your work/projects folder (or any folder) and type
+2. Navigate to your work/projects folder (or any folder) and type
 ```
  mvn archetype:generate -DarchetypeCatalog=local
 ```
-#####3. This will provide you an interactive console
+3. This will provide you an interactive console
 
 ```
   [INFO] Generating project in Interactive mode
@@ -29,7 +29,7 @@ It will contain also commons stuff like packages, common classes, configs, yml f
   1: local -> com.soltean.service:maven-archetype (Archetype for spawning services)
   Choose a number or apply filter (format: [groupId:]artifactId, case sensitive contains): :
 ```
-#####4. Enter 1 and hit enter. You will need to fill the following properties
+4. Enter 1 and hit enter. You will need to fill the following properties
  
 ```
    Define value for property 'groupId': com.soltean.service 
@@ -45,12 +45,12 @@ It will contain also commons stuff like packages, common classes, configs, yml f
    rootArtifactId: com.soltean.service
     Y: :
 ```
-#####5. Confirm this values by writing Y and hit enter
+5. Confirm this values by writing Y and hit enter
 ```
   Y: : Y
 ```
    
-#####6. If everything went according to plan you should see
+#6. If everything went according to plan you should see
  
 ```
 [INFO] Parent element not overwritten in /Users/sergiuoltean/work/test/test-domain/pom.xml
