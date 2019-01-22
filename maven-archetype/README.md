@@ -64,7 +64,7 @@ It will contain also commons stuff like packages, common classes, configs, yml f
 
 ```
  
-#####7. Check the directory structure
+7. Check the directory structure
 ```
  Sergius-MacBook-Pro:test sergiuoltean$ ls -l
  total 8
